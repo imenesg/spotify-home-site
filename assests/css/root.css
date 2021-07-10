@@ -1,0 +1,12 @@
+:root{
+    --first-color: #2941ab;
+    --second-color: #1ED760;
+    --black-color: #000;
+    --white-color: #fff;
+    --greey-color1: #222326;  
+    --greey-color2: #919496;
+
+}
+*{
+    box-sizing: border-box;
+}

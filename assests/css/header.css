@@ -1,0 +1,80 @@
+header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    background-color: var(--black-color);
+   
+    
+}
+#divCenter{
+    display: flex;
+    justify-content: space-between;
+    width: calc(100% - 100px);
+    align-items: center;
+}
+header #logoH{
+    
+}
+header nav{
+    
+}
+.clodsedMenu{
+    display: none;
+}
+header nav a{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 17px;
+    margin-left: 17px;
+    
+}  
+header nav span{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--white-color);
+    font-size: 20px;
+    font-weight: lighter;
+    text-decoration: none;
+    margin-right: 17px;
+    margin-left: 17px;
+    cursor: default;
+    
+}  
+header nav a:hover{
+    color: var(--second-color);
+} 
+@media  screen and (max-width: 900px){
+    header{
+        height: 54px;
+    }
+
+    nav{
+        display: none;
+    }
+    .clodsedMenu{
+        display: block;
+    }
+    header nav a{
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        color: var(--white-color);
+        font-size: 16px;
+        font-weight: 400;
+        text-decoration: none;
+        margin-right: 17px;
+        margin-left: 17px;
+        
+    }
+    #divCenter{
+        width: calc(100% - 15px);
+    }
+    header #logoH{
+        width: 89px;
+        height: 27px;
+    }
+
+}
+
